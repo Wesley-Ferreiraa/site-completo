@@ -1,0 +1,142 @@
+body, html {
+    overflow-x: hidden !important;
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EBE5C5;
+}
+header{
+    background-image: linear-gradient(to bottom,#2DA362, #063D1E);
+    color: white;
+    padding: 20px;
+    height: 212px;
+    width: 100%;
+}
+
+header >h1{
+    letter-spacing: 2px;
+    text-shadow: 1px 2px 2px black;
+    padding-top: 20px;
+    font-size: 45px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+header > p{
+    text-shadow: 1px 2px 2px black;
+    font-size: 19px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+header > h1, p{
+    text-align: center;
+}
+
+h3{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    color:#063D1E;
+    background-image: linear-gradient(to right,rgb(137, 213, 220), white);
+    padding: 5px;
+}
+
+nav{
+    padding-top: 60px;
+}
+
+.menu{
+    text-decoration: none;
+    color:#39de94;
+    padding-right: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: serif;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color:#FFFFFF;
+   width: 64%;
+   margin: auto; 
+   text-align: justify;
+   padding: 16px;
+   border: 1px solid rgba(50, 49, 18, 0.371);
+   box-shadow:  1px 1px 5px rgb(121, 121, 94);
+   
+}
+
+main > p{
+    text-align: left;
+    text-indent: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+main > h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+    color: #063D1E;
+    padding-top: 15px;
+}
+
+.citacao{
+    text-decoration: none;
+    color: #175232;
+    font-weight: bold;
+    background-color: rgba(0, 255, 255, 0.503);
+}
+
+.img-1{
+    text-align: center;
+}
+
+span{
+    color: #063D1E;
+    font-weight:bold;
+}
+
+.imagem-2{
+    display: flex;
+    margin: auto;
+}
+.main-2{
+    margin-top: 20px;
+    background-color: rgb(134, 239, 166);
+    border-radius: 20px;
+}
+
+section{
+    border-radius: 20px;
+}
+
+#titulo{
+    background-color: #063D1E;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+}
+
+
+.lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+    font-size: 20px;
+}
+#footer{
+    padding-bottom: 20px;
+    background-color: #063D1E;
+    color: #FFFFFF;
+}
