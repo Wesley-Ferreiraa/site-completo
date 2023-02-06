@@ -62,6 +62,10 @@ nav{
     font-family: serif;
 }
 
+.menu:hover{
+    color: #ffffff;
+}
+
 a:hover{
     text-decoration: underline;
 }
