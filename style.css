@@ -63,7 +63,10 @@ nav{
 }
 
 .menu:hover{
-    color: #ffffff;
+    color: #baedd4;
+    text-decoration: none;
+    background-color: #39de944b;
+    border-radius: 20px;
 }
 
 a:hover{
